@@ -1,8 +1,4 @@
 (sym_lib_table
-  (version 7)
-  (lib (name "Biosensor")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Biosensor.kicad_sym")(options "")(descr ""))
-  (lib (name "Teensy")(type "KiCad")(uri "${KIPRJMOD}/Libraries/DEV-16771/DEV-16771.kicad_sym")(options "")(descr ""))
-  (lib (name "Nmos")(type "KiCad")(uri "${KIPRJMOD}/Libraries/SSM3K329R,LF/SSM3K329R_LF.kicad_sym")(options "")(descr ""))
-  (lib (name "XT60")(type "KiCad")(uri "${KIPRJMOD}/Libraries/XT60/XT60-M.kicad_sym")(options "")(descr ""))
-  (lib (name "SMD Caps")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Caps/KiCADv6/2023-11-14_02-46-49.kicad_sym")(options "")(descr ""))
+  (version 0)
+  (lib (name "Citadel-altium-import")(type "KiCad")(uri "${KIPRJMOD}/Citadel-altium-import.kicad_sym")(options "")(descr ""))
 )

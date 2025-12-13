@@ -1,9 +1,5 @@
 (fp_lib_table
   (version 7)
-  (lib (name "Teensy")(type "KiCad")(uri "${KIPRJMOD}/Libraries/DEV-16771")(options "")(descr ""))
-  (lib (name "XT90W-M")(type "KiCad")(uri "${KIPRJMOD}/Libraries/XT90PW-M/XT90PW-M")(options "")(descr ""))
-  (lib (name "D24V150F5")(type "KiCad")(uri "${KIPRJMOD}/Libraries/D24V150F5/D24V150F5.pretty")(options "")(descr ""))
-  (lib (name "XT60")(type "KiCad")(uri "${KIPRJMOD}/Libraries/XT60")(options "")(descr ""))
-  (lib (name "Caps")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Caps/KiCADv6/footprints.pretty")(options "")(descr ""))
-  (lib (name "Nmos")(type "KiCad")(uri "${KIPRJMOD}/Libraries/SSM3K329R,LF")(options "")(descr ""))
+  (lib (name "Lib")(type "KiCad")(uri "${KIPRJMOD}/Lib.pretty")(options "")(descr ""))
+  (lib (name "Citadel")(type "KiCad")(uri "${KIPRJMOD}/Lib/Citadel.pretty")(options "")(descr ""))
 )
