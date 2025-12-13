@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name ASTRA_Library)(type Legacy)(uri ${KIPRJMOD}/ASTRA_Library.lib)(options "")(descr ""))
+  (lib (name ArmElectronics_Library)(type Legacy)(uri ${KIPRJMOD}/ArmElectronics_Library.lib)(options "")(descr ""))
+  (lib (name MainElectronicsLib)(type Legacy)(uri ${KIPRJMOD}/MainElectronicsLib.lib)(options "")(descr ""))
+  (lib (name epc901)(type Legacy)(uri ${KIPRJMOD}/../shared/epc901.lib)(options "")(descr ""))
+)
