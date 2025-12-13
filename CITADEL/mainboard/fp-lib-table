@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name epc901)(type KiCad)(uri ${KIPRJMOD}/../shared/epc901.pretty)(options "")(descr ""))
-)

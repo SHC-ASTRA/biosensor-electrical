@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name "Socket_Arduino_Uno")(type "KiCad")(uri "$(KIPRJMOD)/Socket_Arduino_Uno.pretty")(options "")(descr ""))
+  (lib (name "ArmElectronics_Footprints")(type "KiCad")(uri "${KIPRJMOD}/ArmElectronics_Footprints.pretty")(options "")(descr ""))
+  (lib (name "ASTRA_Footprints")(type "KiCad")(uri "${KIPRJMOD}/ASTRA_Footprints.pretty")(options "")(descr ""))
+  (lib (name "max7315AUE+")(type "KiCad")(uri "C:/Users/yyfer/OneDrive/Desktop/Astra Electrical GrabCad/ASTRA_Library/ul_MAX7315AUE-/KiCAD/2023-04-05_16-46-02/footprints.pretty")(options "")(descr ""))
+  (lib (name "Kicad Signature")(type "KiCad")(uri "C:/Users/yyfer/OneDrive/Desktop/Important Documents/Kicad Signature")(options "")(descr ""))
+)
