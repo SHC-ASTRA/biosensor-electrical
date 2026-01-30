@@ -58,7 +58,24 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "malformed_courtyard|68925000|89170000|7a8d93da-ef93-46bb-937c-d4246559a350|00000000-0000-0000-0000-000000000000",
+          "Custom courtyard"
+        ],
+        [
+          "malformed_courtyard|85425000|94770000|7a8d93da-ef93-46bb-937c-d4246559a350|00000000-0000-0000-0000-000000000000",
+          "Custom Courtyard"
+        ],
+        [
+          "starved_thermal|133865000|52090000|083ba03b-d57d-4061-9672-b4a4bf0589d5|28df60bf-5bf7-49f9-82a6-bdabcb27b67a|B.Cu",
+          "Unable to fix"
+        ],
+        [
+          "unconnected_items|92412753|78854826|F.Cu|4|083ba03b-d57d-4061-9672-b4a4bf0589d5|083ba03b-d57d-4061-9672-b4a4bf0589d5",
+          "Via Stiching connects them"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -253,7 +270,32 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "power_pin_not_driven|1651000|342900|d8dce25d-37ae-4254-9c19-87c682cfefdf|00000000-0000-0000-0000-000000000000|/449f3ad9-21d4-4de1-91e6-9e93ec5a3082|/449f3ad9-21d4-4de1-91e6-9e93ec5a3082|",
+        "Connected to 5V"
+      ],
+      [
+        "power_pin_not_driven|1790700|266700|de7bea1a-f4d4-4049-8a27-4672541fa3c3|00000000-0000-0000-0000-000000000000|/449f3ad9-21d4-4de1-91e6-9e93ec5a3082|/449f3ad9-21d4-4de1-91e6-9e93ec5a3082|",
+        "Connected to 12V"
+      ],
+      [
+        "power_pin_not_driven|2044700|825500|a595c814-c5e0-452f-b866-f32b8aaa576e|00000000-0000-0000-0000-000000000000|/449f3ad9-21d4-4de1-91e6-9e93ec5a3082|/449f3ad9-21d4-4de1-91e6-9e93ec5a3082|",
+        "Connected to Batt"
+      ],
+      [
+        "power_pin_not_driven|2044700|850900|68743e40-1796-4360-aab1-39a206f1533a|00000000-0000-0000-0000-000000000000|/449f3ad9-21d4-4de1-91e6-9e93ec5a3082|/449f3ad9-21d4-4de1-91e6-9e93ec5a3082|",
+        "Connected to GND"
+      ],
+      [
+        "power_pin_not_driven|279400|1765300|91a6dbd3-63aa-4801-b10b-44d975b93eb7|00000000-0000-0000-0000-000000000000|/449f3ad9-21d4-4de1-91e6-9e93ec5a3082|/449f3ad9-21d4-4de1-91e6-9e93ec5a3082|",
+        "Connected to 3.3V"
+      ],
+      [
+        "power_pin_not_driven|3644900|381000|c1dd277e-2e18-4371-b663-41a77f4c6611|00000000-0000-0000-0000-000000000000|/449f3ad9-21d4-4de1-91e6-9e93ec5a3082|/449f3ad9-21d4-4de1-91e6-9e93ec5a3082|",
+        "Connected to 5V"
+      ]
+    ],
     "meta": {
       "version": 0
     },
