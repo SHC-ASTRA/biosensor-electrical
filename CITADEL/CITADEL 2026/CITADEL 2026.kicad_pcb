@@ -5842,7 +5842,7 @@
 		(uuid "687cc173-e844-46ed-b897-e856689cfcb1")
 		(at 50.376501 37.169001)
 		(tags "39281063 ")
-		(property "Reference" "Stepper Daughter Board"
+		(property "Reference" "Servo Daughter Board"
 			(at 4.974999 -4.311501 0)
 			(unlocked yes)
 			(layer "F.SilkS")
