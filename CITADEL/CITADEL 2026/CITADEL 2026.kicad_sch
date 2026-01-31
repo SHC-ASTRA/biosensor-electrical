@@ -3153,6 +3153,251 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x04_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04_Pin"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_Pin_1_1"
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x04_Socket"
 			(pin_names
 				(offset 1.016)
@@ -5775,8 +6020,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "M"
-				(at -5.08 4.445 0)
+			(property "Reference" "Servo2"
+				(at 8.89 1.7032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5784,16 +6029,16 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Motor_Servo"
-				(at -5.08 -4.064 0)
+			(property "Value" "MG90S 2"
+				(at 8.89 -0.8368 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical"
 				(at 0 -4.826 0)
 				(effects
 					(font
@@ -6014,7 +6259,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6032,7 +6277,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6050,7 +6295,1472 @@
 							)
 						)
 					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Motor_Servo_1"
+			(pin_names
+				(offset 0.0254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Servo3"
+				(at 9.144 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MG90S 3"
+				(at 9.144 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical"
+				(at 0 -4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png"
+				(at 0 -4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Servo Motor (Futaba, HiTec, JR connector)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Servo Motor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "PinHeader*P2.54mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Motor_Servo_1_0_1"
+				(polyline
+					(pts
+						(xy 2.413 1.778) (xy 1.905 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.413 1.778) (xy 2.286 1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.413 -1.778) (xy 2.032 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.413 -1.778) (xy 2.286 -1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.413 -1.778)
+					(mid 1.2406 0)
+					(end 2.413 1.778)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.175 0)
+					(radius 0.1778)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.175 0)
+					(radius 1.4224)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 3.556) (xy -5.08 3.556) (xy -5.08 -3.556) (xy 6.35 -3.556) (xy 6.35 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.969 2.794)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 4.445) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.477 3.302)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 6.35 4.445)
+					(mid 7.4487 4.2737)
+					(end 7.62 3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.985 3.81)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 3.175) (xy 4.191 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Motor_Servo_1_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "PWM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Motor_Servo_2"
+			(pin_names
+				(offset 0.0254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Servo6"
+				(at 8.89 1.7032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MG90S 6"
+				(at 8.89 -0.8368 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical"
+				(at 0 -4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png"
+				(at 0 -4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Servo Motor (Futaba, HiTec, JR connector)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Servo Motor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "PinHeader*P2.54mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Motor_Servo_2_0_1"
+				(polyline
+					(pts
+						(xy 2.413 1.778) (xy 1.905 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.413 1.778) (xy 2.286 1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.413 -1.778) (xy 2.032 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.413 -1.778) (xy 2.286 -1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.413 -1.778)
+					(mid 1.2406 0)
+					(end 2.413 1.778)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.175 0)
+					(radius 0.1778)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.175 0)
+					(radius 1.4224)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 3.556) (xy -5.08 3.556) (xy -5.08 -3.556) (xy 6.35 -3.556) (xy 6.35 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.969 2.794)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 4.445) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.477 3.302)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 6.35 4.445)
+					(mid 7.4487 4.2737)
+					(end 7.62 3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.985 3.81)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 3.175) (xy 4.191 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Motor_Servo_2_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "PWM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Motor_Servo_3"
+			(pin_names
+				(offset 0.0254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Servo5"
+				(at 8.89 1.7032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MG90S 5"
+				(at 8.89 -0.8368 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical"
+				(at 0 -4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png"
+				(at 0 -4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Servo Motor (Futaba, HiTec, JR connector)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Servo Motor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "PinHeader*P2.54mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Motor_Servo_3_0_1"
+				(polyline
+					(pts
+						(xy 2.413 1.778) (xy 1.905 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.413 1.778) (xy 2.286 1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.413 -1.778) (xy 2.032 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.413 -1.778) (xy 2.286 -1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.413 -1.778)
+					(mid 1.2406 0)
+					(end 2.413 1.778)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.175 0)
+					(radius 0.1778)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.175 0)
+					(radius 1.4224)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 3.556) (xy -5.08 3.556) (xy -5.08 -3.556) (xy 6.35 -3.556) (xy 6.35 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.969 2.794)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 4.445) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.477 3.302)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 6.35 4.445)
+					(mid 7.4487 4.2737)
+					(end 7.62 3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.985 3.81)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 3.175) (xy 4.191 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Motor_Servo_3_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "PWM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Motor_Servo_4"
+			(pin_names
+				(offset 0.0254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Servo1"
+				(at 8.89 1.7032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MG90S 1"
+				(at 8.89 -0.8368 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical"
+				(at 0 -4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png"
+				(at 0 -4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Servo Motor (Futaba, HiTec, JR connector)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Servo Motor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "PinHeader*P2.54mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Motor_Servo_4_0_1"
+				(polyline
+					(pts
+						(xy 2.413 1.778) (xy 1.905 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.413 1.778) (xy 2.286 1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.413 -1.778) (xy 2.032 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.413 -1.778) (xy 2.286 -1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.413 -1.778)
+					(mid 1.2406 0)
+					(end 2.413 1.778)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.175 0)
+					(radius 0.1778)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.175 0)
+					(radius 1.4224)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 3.556) (xy -5.08 3.556) (xy -5.08 -3.556) (xy 6.35 -3.556) (xy 6.35 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.969 2.794)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 4.445) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.477 3.302)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 6.35 4.445)
+					(mid 7.4487 4.2737)
+					(end 7.62 3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.985 3.81)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 3.175) (xy 4.191 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Motor_Servo_4_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "PWM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Motor_Servo_5"
+			(pin_names
+				(offset 0.0254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Servo4"
+				(at 8.89 1.7032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MG90S 4"
+				(at 8.89 -0.8368 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical"
+				(at 0 -4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png"
+				(at 0 -4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Servo Motor (Futaba, HiTec, JR connector)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Servo Motor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "PinHeader*P2.54mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Motor_Servo_5_0_1"
+				(polyline
+					(pts
+						(xy 2.413 1.778) (xy 1.905 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.413 1.778) (xy 2.286 1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.413 -1.778) (xy 2.032 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.413 -1.778) (xy 2.286 -1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.413 -1.778)
+					(mid 1.2406 0)
+					(end 2.413 1.778)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.175 0)
+					(radius 0.1778)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.175 0)
+					(radius 1.4224)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 3.556) (xy -5.08 3.556) (xy -5.08 -3.556) (xy 6.35 -3.556) (xy 6.35 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.969 2.794)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 4.445) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.477 3.302)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 6.35 4.445)
+					(mid 7.4487 4.2737)
+					(end 7.62 3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.985 3.81)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 3.175) (xy 4.191 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Motor_Servo_5_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "PWM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7542,7 +9252,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 62.23) (xy 297.18 62.23)
+			(xy 294.64 54.61) (xy 297.18 54.61)
 		)
 		(stroke
 			(width 0)
@@ -7589,6 +9299,16 @@
 			(type default)
 		)
 		(uuid "0b2560c0-a934-4a5b-9271-09a0d8bb70f6")
+	)
+	(wire
+		(pts
+			(xy 184.15 87.63) (xy 185.42 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f86bffb-dc6d-481b-a528-c5b0a7ca3e08")
 	)
 	(wire
 		(pts
@@ -7822,7 +9542,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 52.07) (xy 297.18 52.07)
+			(xy 294.64 59.69) (xy 297.18 59.69)
 		)
 		(stroke
 			(width 0)
@@ -7939,16 +9659,6 @@
 			(type default)
 		)
 		(uuid "48d0209b-5d5a-42ff-afc3-fe02c8ecd960")
-	)
-	(wire
-		(pts
-			(xy 185.42 82.55) (xy 184.15 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48f9ad98-52ba-4994-8095-44fb5e6ae77a")
 	)
 	(wire
 		(pts
@@ -8102,7 +9812,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 49.53) (xy 297.18 49.53)
+			(xy 294.64 57.15) (xy 297.18 57.15)
 		)
 		(stroke
 			(width 0)
@@ -8122,7 +9832,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 54.61) (xy 297.18 54.61)
+			(xy 294.64 62.23) (xy 297.18 62.23)
 		)
 		(stroke
 			(width 0)
@@ -8292,7 +10002,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 59.69) (xy 297.18 59.69)
+			(xy 294.64 52.07) (xy 297.18 52.07)
 		)
 		(stroke
 			(width 0)
@@ -8852,7 +10562,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 57.15) (xy 297.18 57.15)
+			(xy 294.64 49.53) (xy 297.18 49.53)
 		)
 		(stroke
 			(width 0)
@@ -9030,6 +10740,16 @@
 		)
 		(uuid "0bf1cee4-77a5-4856-9f5e-5990b9534dca")
 	)
+	(label "CIT_CAN-"
+		(at 185.42 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0c186447-54a8-4d6e-aced-da476c4997b0")
+	)
 	(label "Motor1_2"
 		(at 234.95 87.63 180)
 		(effects
@@ -9051,7 +10771,7 @@
 		(uuid "0cbbc635-e228-4159-9fe8-05f5d84c1d56")
 	)
 	(label "Servo6"
-		(at 289.56 57.15 180)
+		(at 289.56 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9181,7 +10901,7 @@
 		(uuid "3c635b68-c830-4aa1-a079-eedb59cdea0f")
 	)
 	(label "Servo5"
-		(at 289.56 59.69 180)
+		(at 289.56 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9251,7 +10971,7 @@
 		(uuid "4c4f82ae-8527-4a0b-9429-4d516dc499b2")
 	)
 	(label "Servo4"
-		(at 289.56 62.23 180)
+		(at 289.56 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9310,7 +11030,7 @@
 		)
 		(uuid "5acdccd4-316e-4535-a16c-2da891f34213")
 	)
-	(label "Spark_Max_PWM"
+	(label "ESC_PWM"
 		(at 21.59 39.37 0)
 		(effects
 			(font
@@ -9320,8 +11040,8 @@
 		)
 		(uuid "607da32e-6df1-477c-b3ac-e646cf7a5951")
 	)
-	(label "Spark_Max_PWM"
-		(at 184.15 82.55 180)
+	(label "ESC_PWM"
+		(at 184.15 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9510,8 +11230,18 @@
 		)
 		(uuid "94fcc1d0-aed5-4998-a3b1-1cc9e9d71b74")
 	)
+	(label "CIT_CAN+"
+		(at 185.42 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9726e224-c0a0-45ae-902e-5676175200e3")
+	)
 	(label "Servo3"
-		(at 289.56 49.53 180)
+		(at 289.56 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9671,7 +11401,7 @@
 		(uuid "c61ff900-c799-4050-a19e-b94e66575cc9")
 	)
 	(label "Servo1"
-		(at 289.56 54.61 180)
+		(at 289.56 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9761,7 +11491,7 @@
 		(uuid "e3f82a8a-a893-4c5d-878b-b1cbe0873534")
 	)
 	(label "Servo2"
-		(at 289.56 52.07 180)
+		(at 289.56 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9999,7 +11729,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 184.15 85.09 0)
+		(at 184.15 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10007,7 +11737,7 @@
 		(dnp no)
 		(uuid "07d45b67-a60e-46d6-9298-c1845bd68469")
 		(property "Reference" "#PWR060"
-			(at 184.15 91.44 0)
+			(at 184.15 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10016,7 +11746,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 182.626 89.916 0)
+			(at 182.626 92.456 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10025,7 +11755,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 85.09 0)
+			(at 184.15 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10034,7 +11764,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 85.09 0)
+			(at 184.15 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10043,7 +11773,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 184.15 85.09 0)
+			(at 184.15 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10132,7 +11862,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 292.1 54.61 90)
+		(at 292.1 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10140,7 +11870,7 @@
 		(dnp no)
 		(uuid "0a31ab75-9aab-4dbc-a57c-63efefdc2638")
 		(property "Reference" "R14"
-			(at 292.1 54.61 90)
+			(at 292.1 62.23 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -10148,7 +11878,7 @@
 			)
 		)
 		(property "Value" "220Ω"
-			(at 297.18 53.594 90)
+			(at 297.18 61.214 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10156,7 +11886,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 292.1 54.61 0)
+			(at 292.1 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10165,7 +11895,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 292.1 54.61 0)
+			(at 292.1 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10174,7 +11904,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 292.1 54.61 0)
+			(at 292.1 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10198,6 +11928,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Motor_Servo_3")
 		(lib_id "Motor:Motor_Servo")
 		(at 223.52 111.76 0)
 		(unit 1)
@@ -10225,7 +11956,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical"
 			(at 223.52 116.586 0)
 			(effects
 				(font
@@ -12844,6 +14575,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Motor_Servo_1")
 		(lib_id "Motor:Motor_Servo")
 		(at 257.81 99.06 0)
 		(unit 1)
@@ -12870,7 +14602,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical"
 			(at 257.81 103.886 0)
 			(effects
 				(font
@@ -13913,6 +15645,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Motor_Servo_4")
 		(lib_id "Motor:Motor_Servo")
 		(at 189.23 99.06 0)
 		(unit 1)
@@ -13940,7 +15673,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical"
 			(at 189.23 103.886 0)
 			(effects
 				(font
@@ -13967,10 +15700,10 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
+		(pin "1"
 			(uuid "91f7cd3c-08b6-429c-9997-9162938d7b77")
 		)
-		(pin "1"
+		(pin "3"
 			(uuid "72a40719-7284-4385-aa8c-16d5f8999c73")
 		)
 		(pin "2"
@@ -14586,7 +16319,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 292.1 57.15 90)
+		(at 292.1 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14594,7 +16327,7 @@
 		(dnp no)
 		(uuid "791df096-9b8e-47d4-9c0b-836604b86acd")
 		(property "Reference" "R19"
-			(at 292.1 57.15 90)
+			(at 292.1 49.53 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -14602,7 +16335,7 @@
 			)
 		)
 		(property "Value" "220Ω"
-			(at 297.18 56.134 90)
+			(at 297.18 48.514 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14610,7 +16343,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 292.1 57.15 0)
+			(at 292.1 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14619,7 +16352,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 292.1 57.15 0)
+			(at 292.1 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14628,7 +16361,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 292.1 57.15 0)
+			(at 292.1 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15152,7 +16885,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Spark Max PWR"
+		(property "Value" "ESC PWR"
 			(at 209.296 79.502 0)
 			(effects
 				(font
@@ -15272,7 +17005,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 292.1 49.53 90)
+		(at 292.1 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15280,7 +17013,7 @@
 		(dnp no)
 		(uuid "8b997980-ef56-447e-ab2b-ad3133a2dc0c")
 		(property "Reference" "R16"
-			(at 292.1 49.53 90)
+			(at 292.1 57.15 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -15288,7 +17021,7 @@
 			)
 		)
 		(property "Value" "220Ω"
-			(at 297.18 48.514 90)
+			(at 297.18 56.134 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15296,7 +17029,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 292.1 49.53 0)
+			(at 292.1 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15305,7 +17038,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 292.1 49.53 0)
+			(at 292.1 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15314,7 +17047,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 292.1 49.53 0)
+			(at 292.1 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15718,6 +17451,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Motor_Servo_2")
 		(lib_id "Motor:Motor_Servo")
 		(at 257.81 111.76 0)
 		(unit 1)
@@ -15745,7 +17479,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical"
 			(at 257.81 116.586 0)
 			(effects
 				(font
@@ -15772,10 +17506,10 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
+		(pin "1"
 			(uuid "e4cb9dcd-c146-4c07-b555-3ac8af56d46d")
 		)
-		(pin "1"
+		(pin "3"
 			(uuid "56029ca2-8399-4c60-bd01-2cf19aeb570f")
 		)
 		(pin "2"
@@ -16418,7 +18152,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical"
 			(at 223.52 103.886 0)
 			(effects
 				(font
@@ -16464,6 +18198,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Motor_Servo_5")
 		(lib_id "Motor:Motor_Servo")
 		(at 189.23 111.76 0)
 		(unit 1)
@@ -16491,7 +18226,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical"
 			(at 189.23 116.586 0)
 			(effects
 				(font
@@ -16952,7 +18687,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
+		(lib_id "Connector:Conn_01x04_Pin")
 		(at 190.5 85.09 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16961,22 +18696,22 @@
 		(dnp no)
 		(uuid "b26cae58-37c8-45f3-8e2c-9e317fa4d9d6")
 		(property "Reference" "J4"
-			(at 185.674 76.454 0)
+			(at 186.436 75.438 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Spark Max PWM"
-			(at 189.23 78.74 0)
+		(property "Value" "ESC Comms"
+			(at 191.262 77.216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 190.5 85.09 0)
 			(effects
 				(font
@@ -16994,7 +18729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "Generic connector, single row, 01x04, script generated"
 			(at 190.5 85.09 0)
 			(effects
 				(font
@@ -17008,6 +18743,12 @@
 		)
 		(pin "1"
 			(uuid "20df3920-83cd-451a-b7c9-5830c387f2cd")
+		)
+		(pin "3"
+			(uuid "9319a561-51ca-4573-ba09-9b3258ae5e09")
+		)
+		(pin "4"
+			(uuid "09231988-754c-40cb-9c06-69683df79039")
 		)
 		(instances
 			(project ""
@@ -17493,7 +19234,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 292.1 59.69 90)
+		(at 292.1 52.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17501,7 +19242,7 @@
 		(dnp no)
 		(uuid "ccc4b807-52cc-497a-b88d-d9d76e9f3972")
 		(property "Reference" "R18"
-			(at 292.1 59.69 90)
+			(at 292.1 52.07 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -17509,7 +19250,7 @@
 			)
 		)
 		(property "Value" "220Ω"
-			(at 297.18 58.674 90)
+			(at 297.18 51.054 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17517,7 +19258,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 292.1 59.69 0)
+			(at 292.1 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17526,7 +19267,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 292.1 59.69 0)
+			(at 292.1 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17535,7 +19276,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 292.1 59.69 0)
+			(at 292.1 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17850,7 +19591,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 292.1 52.07 90)
+		(at 292.1 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17858,7 +19599,7 @@
 		(dnp no)
 		(uuid "d8c3b830-7b05-478d-952b-623507899f82")
 		(property "Reference" "R15"
-			(at 292.1 52.07 90)
+			(at 292.1 59.69 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -17866,7 +19607,7 @@
 			)
 		)
 		(property "Value" "220Ω"
-			(at 297.18 51.054 90)
+			(at 297.18 58.674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17874,7 +19615,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 292.1 52.07 0)
+			(at 292.1 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17883,7 +19624,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 292.1 52.07 0)
+			(at 292.1 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17892,7 +19633,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 292.1 52.07 0)
+			(at 292.1 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19046,7 +20787,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 292.1 62.23 90)
+		(at 292.1 54.61 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19054,7 +20795,7 @@
 		(dnp no)
 		(uuid "f59ed09b-52a2-4e72-82ed-6aa2ca4d3c96")
 		(property "Reference" "R17"
-			(at 292.1 62.23 90)
+			(at 292.1 54.61 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -19062,7 +20803,7 @@
 			)
 		)
 		(property "Value" "220Ω"
-			(at 297.18 61.214 90)
+			(at 297.18 53.594 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19070,7 +20811,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 292.1 62.23 0)
+			(at 292.1 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19079,7 +20820,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 292.1 62.23 0)
+			(at 292.1 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19088,7 +20829,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 292.1 62.23 0)
+			(at 292.1 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
