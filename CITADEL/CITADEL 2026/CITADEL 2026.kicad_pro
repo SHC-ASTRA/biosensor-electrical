@@ -60,14 +60,6 @@
       ],
       "drc_exclusions": [
         [
-          "malformed_courtyard|68925000|89170000|7a8d93da-ef93-46bb-937c-d4246559a350|00000000-0000-0000-0000-000000000000",
-          "Custom courtyard"
-        ],
-        [
-          "malformed_courtyard|85425000|94770000|7a8d93da-ef93-46bb-937c-d4246559a350|00000000-0000-0000-0000-000000000000",
-          "Custom Courtyard"
-        ],
-        [
           "starved_thermal|133865000|52090000|083ba03b-d57d-4061-9672-b4a4bf0589d5|28df60bf-5bf7-49f9-82a6-bdabcb27b67a|B.Cu",
           "Unable to fix"
         ],
