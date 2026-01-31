@@ -9792,6 +9792,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 44.45) (xy 95.25 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d73258b-4940-4c9c-958e-6a40ccfc80ab")
+	)
+	(wire
+		(pts
 			(xy 21.59 39.37) (xy 38.1 39.37)
 		)
 		(stroke
@@ -10272,6 +10282,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 41.91) (xy 83.82 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bac1a5eb-dadd-4673-aaba-54791a2c229d")
+	)
+	(wire
+		(pts
 			(xy 132.08 135.89) (xy 134.62 135.89)
 		)
 		(stroke
@@ -10602,6 +10622,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 44.45) (xy 83.82 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eee2ea5f-bbb0-474d-955c-930ad7292c46")
+	)
+	(wire
+		(pts
 			(xy 171.45 158.75) (xy 173.99 158.75)
 		)
 		(stroke
@@ -10649,6 +10679,16 @@
 			(type default)
 		)
 		(uuid "f6a4391f-c0af-4436-ac1f-d97d47dd6950")
+	)
+	(wire
+		(pts
+			(xy 92.71 41.91) (xy 95.25 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f89f9a23-cb42-4b77-86d8-fb6ec2fadc1a")
 	)
 	(wire
 		(pts
@@ -12694,6 +12734,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 90.17 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27f8b8c8-f92d-4ffc-9538-9efe88f5f77b")
+		(property "Reference" "R24"
+			(at 90.424 41.91 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "4.7 kΩ"
+			(at 95.25 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 90.17 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 90.17 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0b134fb3-ec0a-4073-afa2-d4315f3697d3")
+		)
+		(pin "1"
+			(uuid "8b7ca345-4de5-48e1-a477-d6c124b07363")
+		)
+		(instances
+			(project ""
+				(path "/449f3ad9-21d4-4de1-91e6-9e93ec5a3082"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 90.17 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2967e84c-ed7a-4a80-b17b-a04214701834")
+		(property "Reference" "R23"
+			(at 90.424 44.45 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "4.7 kΩ"
+			(at 94.996 43.434 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 90.17 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 90.17 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64149cde-f680-4f91-8dbc-7dc6490f1dee")
+		)
+		(pin "2"
+			(uuid "d7b5c153-fba9-454b-a0ec-8ca582e1ed1f")
+		)
+		(instances
+			(project ""
+				(path "/449f3ad9-21d4-4de1-91e6-9e93ec5a3082"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Citadel-altium-import:root_0_SSM3K329R_LF")
 		(at 261.62 52.07 0)
 		(unit 1)
@@ -13119,6 +13293,73 @@
 			(project ""
 				(path "/449f3ad9-21d4-4de1-91e6-9e93ec5a3082"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 95.25 41.91 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32f54741-e612-4fec-9e7b-08e14143e607")
+		(property "Reference" "#PWR022"
+			(at 91.44 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 99.06 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 95.25 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d72458a7-0d28-4360-b5c4-974f6324ff63")
+		)
+		(instances
+			(project "CITADEL 2026"
+				(path "/449f3ad9-21d4-4de1-91e6-9e93ec5a3082"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -17445,6 +17686,73 @@
 			(project ""
 				(path "/449f3ad9-21d4-4de1-91e6-9e93ec5a3082"
 					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 95.25 44.45 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9213d8df-5268-48ab-86a6-de4861bf1068")
+		(property "Reference" "#PWR021"
+			(at 91.44 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 99.06 44.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 95.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a5b698b-de2a-4d82-9f0f-1b898059d014")
+		)
+		(instances
+			(project ""
+				(path "/449f3ad9-21d4-4de1-91e6-9e93ec5a3082"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
