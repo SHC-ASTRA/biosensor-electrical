@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 0.95,
+          "width": 0.975
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,24 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "malformed_courtyard|68925000|89170000|7a8d93da-ef93-46bb-937c-d4246559a350|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "malformed_courtyard|85425000|94770000|7a8d93da-ef93-46bb-937c-d4246559a350|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "starved_thermal|133865000|52090000|083ba03b-d57d-4061-9672-b4a4bf0589d5|28df60bf-5bf7-49f9-82a6-bdabcb27b67a|B.Cu",
-          "Unable to fix"
-        ],
-        [
-          "unconnected_items|92412753|78854826|F.Cu|4|083ba03b-d57d-4061-9672-b4a4bf0589d5|083ba03b-d57d-4061-9672-b4a4bf0589d5",
-          "Via Stiching connects them"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -549,7 +532,12 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "GND"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
