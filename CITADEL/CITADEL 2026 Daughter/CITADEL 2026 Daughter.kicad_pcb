@@ -129,7 +129,7 @@
 		(at 34.95 38.4 180)
 		(descr "Molex Mini-Fit Jr. Power Connectors, old mpn/engineering number: 5566-02A, example for new mpn: 39-28-x02x, 1 Pins per row, Mounting:  (http://www.molex.com/pdm_docs/sd/039281043_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex Mini-Fit_Jr vertical")
-		(property "Reference" "CHEM_1"
+		(property "Reference" "CHEM 1"
 			(at 0 -3.45 0)
 			(layer "F.SilkS")
 			(uuid "1dd6218f-fa2d-488c-9d0c-65aa4df1a989")
@@ -140,7 +140,7 @@
 				)
 			)
 		)
-		(property "Value" "CHEM_1"
+		(property "Value" "CHEM 1"
 			(at 0 9.95 0)
 			(layer "F.Fab")
 			(uuid "c666e064-9400-4d76-9cd8-fc5c9723c4cf")
@@ -503,7 +503,7 @@
 		(at 43.7 38.4 180)
 		(descr "Molex Mini-Fit Jr. Power Connectors, old mpn/engineering number: 5566-02A, example for new mpn: 39-28-x02x, 1 Pins per row, Mounting:  (http://www.molex.com/pdm_docs/sd/039281043_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex Mini-Fit_Jr vertical")
-		(property "Reference" "CHEM_2"
+		(property "Reference" "CHEM 2"
 			(at 0 -3.45 0)
 			(layer "F.SilkS")
 			(uuid "b4ffc7d7-4365-4554-aea9-e802e82b959b")
@@ -514,7 +514,7 @@
 				)
 			)
 		)
-		(property "Value" "CHEM_2"
+		(property "Value" "CHEM 2"
 			(at 0 9.95 0)
 			(layer "F.Fab")
 			(uuid "3befed46-69eb-4983-a0fa-944c85c14150")
@@ -875,7 +875,7 @@
 		(layer "F.Cu")
 		(uuid "7616947f-3475-4dca-a56e-df1a66b27cec")
 		(at 43.7 48.2)
-		(property "Reference" "CITADEL_DAUGHTER"
+		(property "Reference" "CITADEL DAUGHTER"
 			(at 0.05 7.75 0)
 			(layer "F.SilkS")
 			(uuid "922faeea-8055-410e-9fbc-9546c07514a7")
@@ -886,7 +886,7 @@
 				)
 			)
 		)
-		(property "Value" "CITADEL_DAUGHTER"
+		(property "Value" "CITADEL DAUGHTER"
 			(at 0 0.4625 0)
 			(layer "F.Fab")
 			(uuid "a176ca64-c077-44ff-88e3-9184903bd528")
@@ -1383,7 +1383,7 @@
 		(at 52.45 38.4 180)
 		(descr "Molex Mini-Fit Jr. Power Connectors, old mpn/engineering number: 5566-02A, example for new mpn: 39-28-x02x, 1 Pins per row, Mounting:  (http://www.molex.com/pdm_docs/sd/039281043_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex Mini-Fit_Jr vertical")
-		(property "Reference" "CHEM_3"
+		(property "Reference" "CHEM 3"
 			(at 0 -3.45 0)
 			(layer "F.SilkS")
 			(uuid "a5cc93c9-3d23-43c7-953c-229951deee03")
@@ -1394,7 +1394,7 @@
 				)
 			)
 		)
-		(property "Value" "CHEM_3"
+		(property "Value" "CHEM 3"
 			(at 0 9.95 0)
 			(layer "F.Fab")
 			(uuid "c6aa67c2-b989-45ba-adb0-7f9db91bd473")
@@ -1751,16 +1751,36 @@
 			)
 		)
 	)
-	(gr_circle
-		(center 57.27868 25.65368)
-		(end 60.27868 25.65368)
+	(gr_arc
+		(start 25.27868 24.65368)
+		(mid 26.15736 22.53236)
+		(end 28.27868 21.65368)
 		(stroke
 			(width 0.05)
-			(type solid)
+			(type default)
 		)
-		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "06d28b56-0b72-44be-85d2-3e9b83305b33")
+		(uuid "27d4274b-cc99-4f7d-a2fe-04469194c8ce")
+	)
+	(gr_line
+		(start 25.27868 54.65368)
+		(end 25.27868 24.65368)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f94c68c9-0cd5-4507-884e-96d2af10a339")
+	)
+	(gr_line
+		(start 28.27868 21.65368)
+		(end 58.27868 21.65368)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "393881d4-9cb1-4127-9d6c-8ee6371454ab")
 	)
 	(gr_arc
 		(start 28.27868 57.65368)
@@ -1774,37 +1794,15 @@
 		(uuid "0a1ee356-6f61-402f-9344-9c67423e600a")
 	)
 	(gr_circle
-		(center 57.27868 53.65368)
-		(end 60.27868 53.65368)
+		(center 29.27868 25.65368)
+		(end 32.27868 25.65368)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "0ae8c949-e97f-41dd-b85b-044e74f19797")
-	)
-	(gr_arc
-		(start 61.27868 54.65368)
-		(mid 60.4 56.775)
-		(end 58.27868 57.65368)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "14e73704-270f-4a31-a049-fa468d1ee625")
-	)
-	(gr_arc
-		(start 25.27868 24.65368)
-		(mid 26.15736 22.53236)
-		(end 28.27868 21.65368)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "27d4274b-cc99-4f7d-a2fe-04469194c8ce")
+		(uuid "a439d6ed-43da-41bd-b804-57bab6357edf")
 	)
 	(gr_circle
 		(center 29.27868 53.65368)
@@ -1817,46 +1815,27 @@
 		(layer "Edge.Cuts")
 		(uuid "2fd4099f-7cea-403c-9e70-520bfbf643e7")
 	)
-	(gr_line
-		(start 28.27868 21.65368)
-		(end 58.27868 21.65368)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "393881d4-9cb1-4127-9d6c-8ee6371454ab")
-	)
-	(gr_line
-		(start 61.27868 24.65368)
-		(end 61.27868 54.65368)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "4038cc3d-b7a6-4c15-a5a9-166fcaece6d9")
-	)
-	(gr_line
-		(start 58.27868 57.65368)
-		(end 28.27868 57.65368)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "69b53220-0d90-4ee9-99b2-0eb6d738c2af")
-	)
 	(gr_circle
-		(center 29.27868 25.65368)
-		(end 32.27868 25.65368)
+		(center 57.27868 25.65368)
+		(end 60.27868 25.65368)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "a439d6ed-43da-41bd-b804-57bab6357edf")
+		(uuid "06d28b56-0b72-44be-85d2-3e9b83305b33")
+	)
+	(gr_circle
+		(center 57.27868 53.65368)
+		(end 60.27868 53.65368)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "0ae8c949-e97f-41dd-b85b-044e74f19797")
 	)
 	(gr_arc
 		(start 58.27868 21.65368)
@@ -1870,41 +1849,40 @@
 		(uuid "c5b4ad66-7f22-47a2-a50d-cabb59ecd5e1")
 	)
 	(gr_line
-		(start 25.27868 54.65368)
-		(end 25.27868 24.65368)
+		(start 58.27868 57.65368)
+		(end 28.27868 57.65368)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "f94c68c9-0cd5-4507-884e-96d2af10a339")
+		(uuid "69b53220-0d90-4ee9-99b2-0eb6d738c2af")
+	)
+	(gr_line
+		(start 61.27868 24.65368)
+		(end 61.27868 54.65368)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4038cc3d-b7a6-4c15-a5a9-166fcaece6d9")
+	)
+	(gr_arc
+		(start 61.27868 54.65368)
+		(mid 60.4 56.775)
+		(end 58.27868 57.65368)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "14e73704-270f-4a31-a049-fa468d1ee625")
 	)
 	(gr_text "{\n  \"ViaStitching\": \"0.2\",\n  \"stitch_zone_0\": {\n    \"HSpacing\": \"2.5\",\n    \"VSpacing\": \"2.5\",\n    \"HOffset\": \"0\",\n    \"VOffset\": \"0\",\n    \"Clearance\": \"0.6\",\n    \"Randomize\": false\n  }\n}"
 		(at 0 0 0)
 		(layer "User.9")
 		(uuid "604c161f-f4ae-4e63-a3c3-a14c9b2ca7ab")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "{\n  \"ViaStitching\": \"0.2\",\n  \"stitch_zone_0\": {\n    \"HSpacing\": \"2.5\",\n    \"VSpacing\": \"2.5\",\n    \"HOffset\": \"0\",\n    \"VOffset\": \"0\",\n    \"Clearance\": \"0.6\",\n    \"Randomize\": false\n  }\n}"
-		(at 0 0 0)
-		(layer "User.9")
-		(uuid "8df9a761-a578-4263-a25e-a5ace9fbfd12")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "{\n  \"ViaStitching\": \"0.2\",\n  \"stitch_zone_0\": {\n    \"HSpacing\": \"2.5\",\n    \"VSpacing\": \"2.5\",\n    \"HOffset\": \"0\",\n    \"VOffset\": \"0\",\n    \"Clearance\": \"0.6\",\n    \"Randomize\": false\n  }\n}"
-		(at 0 0 0)
-		(layer "User.9")
-		(uuid "922a3a9c-fb47-46a1-8c98-7b196e5ef0c5")
 		(effects
 			(font
 				(size 1.27 1.27)

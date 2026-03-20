@@ -1134,7 +1134,7 @@
 				)
 			)
 		)
-		(property "Value" "CHEM_1"
+		(property "Value" "CHEM 1"
 			(at 70.358 26.924 0)
 			(effects
 				(font
@@ -1176,7 +1176,7 @@
 			(uuid "2a209de4-62ae-422b-b602-ec51b2e0c516")
 		)
 		(instances
-			(project ""
+			(project "CITADEL 2026 Daughter"
 				(path "/52ce58ca-3d9b-40f7-bd4b-a40ea9b49ff5"
 					(reference "J2")
 					(unit 1)
@@ -1201,7 +1201,7 @@
 				)
 			)
 		)
-		(property "Value" "CHEM_3"
+		(property "Value" "CHEM 3"
 			(at 70.358 49.784 0)
 			(effects
 				(font
@@ -1237,13 +1237,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "cfe3d273-d699-4b44-a203-9d82e3a9ddc1")
+			(uuid "cfe3d273-d699-4b44-a203-9d82e3a9ddc2")
 		)
 		(pin "2"
-			(uuid "2a209de4-62ae-422b-b602-ec51b2e0c516")
+			(uuid "2a209de4-62ae-422b-b602-ec51b2e0c517")
 		)
 		(instances
-			(project ""
+			(project "CITADEL 2026 Daughter"
 				(path "/52ce58ca-3d9b-40f7-bd4b-a40ea9b49ff5"
 					(reference "J4")
 					(unit 1)
@@ -1269,7 +1269,7 @@
 				)
 			)
 		)
-		(property "Value" "CITADEL_DAUGHTER"
+		(property "Value" "CITADEL DAUGHTER"
 			(at 31.75 25.4 0)
 			(effects
 				(font
@@ -1350,7 +1350,7 @@
 				)
 			)
 		)
-		(property "Value" "CHEM_2"
+		(property "Value" "CHEM 2"
 			(at 70.358 38.354 0)
 			(effects
 				(font
@@ -1386,13 +1386,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "cfe3d273-d699-4b44-a203-9d82e3a9ddc1")
+			(uuid "cfe3d273-d699-4b44-a203-9d82e3a9ddc3")
 		)
 		(pin "2"
-			(uuid "2a209de4-62ae-422b-b602-ec51b2e0c516")
+			(uuid "2a209de4-62ae-422b-b602-ec51b2e0c518")
 		)
 		(instances
-			(project ""
+			(project "CITADEL 2026 Daughter"
 				(path "/52ce58ca-3d9b-40f7-bd4b-a40ea9b49ff5"
 					(reference "J3")
 					(unit 1)
