@@ -9929,7 +9929,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1 uf"
 			(at 64.008 135.89 90)
 			(effects
 				(font
@@ -13404,7 +13404,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1 uF"
 			(at 38.1 157.4862 0)
 			(effects
 				(font
@@ -13872,7 +13872,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "4.7 nF"
 			(at 105.918 148.59 90)
 			(effects
 				(font
@@ -16084,7 +16084,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "60 Ω"
 			(at 91.44 143.51 90)
 			(effects
 				(font
@@ -16414,7 +16414,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "60 Ω"
 			(at 91.44 161.544 90)
 			(effects
 				(font
