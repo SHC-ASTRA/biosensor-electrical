@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "FAERIE ESP32 2026")
-		(date "2026-04-15")
-		(rev "1.0")
+		(date "2026-04-21")
+		(rev "1.01")
 		(company "UAH SHC ASTRA")
 		(comment 1 "Created by Robert Geren")
 	)
@@ -12548,7 +12548,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical"
 			(at 271.78 190.5 0)
 			(effects
 				(font
@@ -16938,7 +16938,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical"
 			(at 271.78 179.07 0)
 			(effects
 				(font
