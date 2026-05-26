@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "LANCE")(type "KiCad")(uri "${KIPRJMOD}/Libraries/LANCE.pretty")(options "")(descr ""))
+)

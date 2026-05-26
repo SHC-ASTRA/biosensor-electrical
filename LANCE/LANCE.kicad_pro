@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.4,
-          "height": 3.3,
-          "width": 2.7
+          "drill": 1.016,
+          "height": 1.524,
+          "width": 1.524
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -490,7 +490,7 @@
     ]
   },
   "meta": {
-    "filename": "FAERIE.kicad_pro",
+    "filename": "LANCE.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -526,10 +526,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Digit V2 Gerbers/",
+      "plot": "LANCE Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "FAERIE.step",
+      "step": "LANCE.step",
       "svg": "",
       "vrml": ""
     },
